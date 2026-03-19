@@ -686,13 +686,15 @@ export default function ChapterColor() {
       </p>
 
       {/* Decision tree rendered as a flowchart-like structure */}
-      <div className="my-6 bg-[var(--color-bg-secondary)] rounded-xl p-6 border border-[var(--color-border-subtle)]">
+      {/* Break out of prose max-width for this wide element */}
+      <div className="my-6 -mx-6 sm:-mx-8 lg:-mx-16">
+        <div className="bg-[var(--color-bg-secondary)] rounded-xl p-6 sm:p-8 border border-[var(--color-border-subtle)]">
         <p className="text-xs font-semibold text-[var(--color-text-tertiary)] uppercase tracking-wider mb-5">配色速查决策树</p>
 
         {/* Level 1 */}
         <div className="text-center mb-4">
-          <div className="inline-block bg-[var(--color-bg)] rounded-lg border border-[var(--color-border)] px-5 py-3">
-            <div className="text-sm font-semibold text-[var(--color-text)]">你的产品是什么类型？</div>
+          <div className="inline-block bg-[var(--color-bg)] rounded-lg border border-[var(--color-border)] px-6 py-3">
+            <div className="text-sm font-semibold text-[var(--color-text)] whitespace-nowrap">你的产品是什么类型？</div>
           </div>
         </div>
 
@@ -768,6 +770,7 @@ export default function ChapterColor() {
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* ===== 4.10 终极检查清单 ===== */}

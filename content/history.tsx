@@ -357,7 +357,7 @@ export default function ChapterHistory() {
       </p>
 
       {/* ── Four Eras of Button Design ── */}
-      <div className="my-8 rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-6">
+      <div className="my-8 -mx-6 sm:-mx-8 lg:-mx-12 rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-6 sm:p-8">
         <h4 className="text-xs font-semibold text-[var(--color-text-tertiary)] uppercase tracking-wider mb-6">
           一颗按钮的四个时代
         </h4>
