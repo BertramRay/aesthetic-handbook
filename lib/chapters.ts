@@ -83,9 +83,9 @@ export const chapters: Chapter[] = [
     slug: "practice",
     number: "09",
     title: "持续训练",
-    subtitle: "方法论 · 资源 · 团队机制",
-    description: "每日练习法、审美资源体系、15 项检查清单、团队提升机制",
-    readingTime: "6 分钟",
+    subtitle: "Skills · Figma MCP · 团队机制",
+    description: "Claude Code 设计 Skills 工具链、Figma MCP 配置、审美资源体系、团队提升机制",
+    readingTime: "12 分钟",
   },
 ];
 
